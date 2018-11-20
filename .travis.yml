@@ -15,7 +15,10 @@ jobs:
         mariadb: '10.2'
       install: skip
 
+
       before_script: chmod 777 gradlew
+
+
 
       before_script:
         - mysql -uroot < databases/tracker/create_databases.sql
