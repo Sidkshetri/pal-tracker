@@ -25,11 +25,6 @@ public class EnvController {
         this.memoryLimit = memoryLimit;
         this.cfInstanceIndex = cfInstanceIndex;
         this.cfInstanceAddress = cfInstanceAddress;
-
-       /* this.port = "1000";
-        this.memoryLimit = "2048";
-        this.cfInstanceIndex = "Development";
-        this.cfInstanceAddress = "Pivotal.com";*/
     }
 
     @GetMapping("/env")
